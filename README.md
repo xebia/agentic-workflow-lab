@@ -56,23 +56,9 @@ To complete the hands-on labs, ensure you have the following:
 
 You are set. If **github/github-mcp-server** does not show as Running, run **MCP: List Servers** again, or reload the window with **Developer: Reload Window**, then repeat step 5 to confirm the tool is checked.
 
-### Step 0 — Create a fork of the repository. 
-
-### Step 1 — Create a feature branch
-
+### Create a fork of the repository 
+### Create a feature branch 
 Create a feature branch and push it to the repo. The changes you make will go on that branch, and you'll create a Pull Request later.
-
-Make sure to replace `yuliya-task-manager` with a relevant branch name. 
-
-**Create and switch to your new feature branch:**
-```bash
-git checkout -b yuliya-task-manager
-```
-
-**Push the new branch to the remote repository:**
-```bash
-git push -u origin yuliya-task-manager
-```
 
 ## 🏗️ Application Overview
 
@@ -101,9 +87,6 @@ This repository contains the context engineering setup:
 - **.github/prompts/plan-qna.prompt.md** - Planning prompt with clarifying questions
 
 ## 🚀 Lab Steps
-
-
-### Step 1: 
 
 ### Step 1: Explore the Context Engineering Setup
 
@@ -192,32 +175,14 @@ Create a complete workflow, add a Document agent:
 
 1. Plan agent creates detailed plan
 2. TDD agent implements with tests
-3. Document agent updates documentation (Readme.md)
+3. Document agent updates documentation
 
 #### Visual Guide
 ![Lab Instructions](img/custom%20agent.png)
 
-**Commit changes with VS Code Source Control**
-
-Once the test suite passes, use VS Code's Source Control panel to commit your changes.
-
-- Open the Source Control panel and review the changes.
-
-- Click the sparkle (✨) icon next to the commit message field to have Copilot automatically generate a commit message based on your staged changes.
-
-- Click `✔️ Commit` dropdown and select `Commit and Push` to finalize the commit.
-
-**What you should see:**
-> VS Code will automatically analyze your staged changes and generate a conventional commit message that summarizes all the bug fixes and test improvements, providing a more integrated workflow than manual prompts.
+**Commit changes**
 
 **Create PR**
-
-You can use the GitHub Pull Request extension (GitHub Octocat icon) in VS Code to create a Pull Request
-
-> [!TIP]
-> **Can't find the GitHub extension?** Look for the GitHub Octocat icon in your Activity Bar (left sidebar). If it's not there, install it by pressing `Ctrl+Shift+X` (Windows) or `Cmd+Shift+X` (Mac), search for "GitHub Pull Requests and Issues", and install the official extension by GitHub.
-
-- In the Source Control panel, click **"Create Pull Request"** or use the Command Palette (`Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Mac) → "GitHub Pull Requests: Create Pull Request")
 
 ## Exercise 8 — Copilot as a Reviewer
 
@@ -242,7 +207,7 @@ In Agent Mode, ask to review the application and provide list of improvements.
 Prompt: 
 
 Next prompt: 
-For the first top 3 improvement create an issue on github. 
+For the first top 3 improvements create an issue on github. 
 
 The MCP server should create the issues. 
 Go to github.com and valide that issues were created. 
@@ -279,6 +244,8 @@ TODO: Agents file
 ### 2. Observe the automation
 
 Watch as Copilot opens a branch and draft PR implementing the feature automatically. The Agent follows the patterns defined in your `AGENTS.md` file to ensure code consistency.
+
+### That is it for today, well done!
 
 ### Best Practices Learned
 1. **Start with clear documentation** - Product, Architecture, Contributing
