@@ -28,7 +28,7 @@ These files establish the shared understanding required for both developers and 
 
 - **Repository Custom Instructions:** Configure project-wide instructions in VS Code — [add-repository-instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions?tool=vscode)
 - **Custom Agents Concept:** Build tailored Copilot agents — [custom-agents](https://code.visualstudio.com/docs/copilot/customization/custom-agents)
-- **Customization Library:** Examples of well-defined instructions, prompts, and agents — [customization-library](https://docs.github.com/en/copilot/tutorials/customization/customization-library)
+- **Customization Library:** Examples of well-defined instructions, prompts, and agents — [customization-library](https://docs.github.com/copilot/tutorials/customization-library)
 - **Community Examples:** Curated list of prompts, agents, and repos — [awesome-copilot](https://github.com/github/awesome-copilot)
 
 
