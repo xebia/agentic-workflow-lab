@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+"""Task Manager CLI - Main entry point."""
+import sys
+from src.data.task_repository import InMemoryTaskRepository
+from src.business.task_service import TaskService
+from src.presentation.cli import CLI
+
+
+def main():
+    """Main entry point for the task manager CLI."""
+    # Initialize the layers
+    repository = InMemoryTaskRepository()
+    service = TaskService(repository)
+    cli = CLI(service)
+    
+    # Execute the command
+    cli.execute(sys.argv[1:])
+
+
+if __name__ == "__main__":
+    main()
